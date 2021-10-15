@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <script src="https://kit.fontawesome.com/7b9417aafe.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Clicker+Script:400|Sacramento:400">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <link href="general.css" rel="stylesheet">
+  <link href="Home.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class=" u-clearfix u-header u-section-row-container" id="sec-7d4c">
+
+    <!-- nav bar -->
+
+    <div class="u-clearfix u-section-row u-section-row-2" data-animation-name="" data-animation-duration="0"
+      data-animation-delay="0" data-animation-direction="" id="sec-cd88">
+
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo1_adobespark.png" alt="fun-times" height="60">
+          </a>
+          <a class="u-text-1"
+            style="font-family:Sacramento; font-size: 2rem; font-style: normal; color: #111; text-decoration: none;"
+            href="
+            index.html">Fun
+            Times
+          </a>
+
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+              <li class="nav-item dropdown ms-3">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  HOBBIES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="blog.html">Baking & Cake Decoration</a></li>
+                  <li><a class="dropdown-item" href="#">Beads & Jewelry</a></li>
+                  <li><a class="dropdown-item" href="#">Floral Arrangements</a></li>
+                  <li><a class="dropdown-item" href="#">Home Decor</a></li>
+                  <li><a class="dropdown-item" href="#">Painting</a></li>
+                  <li><a class="dropdown-item" href="#">Paper Crafts</a></li>
+                  <li><a class="dropdown-item" href="#">Pottery</a></li>
+                  <li><a class="dropdown-item" href="#">Sewing</a></li>
+                  <li><a class="dropdown-item" href="#">Yarn & Needle Art</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item ms-3">
+                <a class="nav-link active" href="seasonal.html">SEASONAL</a>
+              </li>
+
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="#">CLEARENCE</a>
+              </li>
+
+              <li class="nav-item ms-3">
+                <a class="nav-link active" aria-current="page" href="blog.html">INSPIRATION</a>
+              </li>
+
+            </ul>
+            <form class="d-flex">
+
+              <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                  <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i>
+                  </button>
+                </div>
+                <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
+                  aria-describedby="basic-addon2">
+
+                <!-- <button class="btn btn-outline-secondary" type="button">Button</button> -->
+              </div>
+
+
+
+            </form>
+
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fas fa-user fa-2x"></i>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link waves-effect waves-light">
+                  <i class="fas fa-shopping-cart fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="images/blog-cover.jpg" class="u-align-center u-clearfix u-image u-shading u-section-1"
+            data-image-width="750" alt="slider 2">
+
+
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>PERFECT CUPCAKES</h1>
+              <p class="u-text-1" style="font-family:Sacramento; font-size: 2rem; font-style: normal">Butter cream icing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- START THE FEATURETTES -->
+      <div class="container marketing">
+
+        <h2 class="u-text-1 u-align-center mt-5">PUMPPKIN CUPCAKES 8 WAYS
+        </h2>
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+
+
+            <p class="lead" style="line-height:3rem;">Pumpkin Cupcakes 8 Ways – Eight ways to decorate a pumpkin cupcake
+              with buttercream
+              frosting.
+              Learn how to pipe rosette pumpkins, short pumpkins, tall pumpkins, easy pumpkins and frilly pumpkins! <br>
+              Even though Halloween has come and gone, there’s no reason to end our relationship with everything
+              pumpkin. Especially when Thanksgiving is just a few weeks away. We have a vast selection of
+              <strong>pumpkin
+                recipes</strong> here on the blog and more than a few delicious pumpkin cupcakes (like this <strong>
+                classic recipe</strong> and this
+              one with <strong>Baileys and pecans</strong>)! But what about the frosting? How can you decorate a pumpkin
+              cupcake to make
+              it look as good as it tastes? Today I’m showing you some fun ways to pipe your frosting – some of these
+              are tried and true classics while others are brand new. Any or all of them would be a beautiful addition
+              to your fall harvest table. <br><strong>
+                Here’s 8 Ways to Frost a Pumpkin Cupcake!</strong>
+
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img src="images/Blog-cake 1.jpeg" <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <!-- <title>Placeholder</title> -->
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+
+
+
+        <div class="row featurette mt-5">
+          <div class="col-md-7 order-md-2">
+
+            <p class="lead" style="line-height:3rem;">Because this project is all about the piping and words simply
+              cannot do it justice, I’m hooking you up with a supply list and a video tutorial. I hope you give it a
+              play to see how all eight designs come together. Some are easier than others but all are achievable with a
+              little practice. I used our classic pumpkin cupcakes with an all butter buttercream (because cream cheese
+              frosting won’t hold it’s shape quite as well.) If you make any of these for your fall gatherings or
+              Thanksgiving, share it with us on <strong>Instagram </strong> so that we can see your creations! Just tag
+              @funtimes or use
+              #funtimes. Can’t wait to see what you do with this!</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img src="images/Blog-cake 2 .jpeg" <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Pumpkin Crafts</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+            </svg>
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <!-- <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer> -->
+
+      <footer class="u-clearfix u-footer u-grey-80" id="sec-26e8">
+        <div class="container p-4">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <div class="row mt-4">
+
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+              <a class="brand-logo" href="#">
+                <img src="images/logo1_adobespark.png" alt="fun-times" height="60">
+              </a>
+              <p class="u-text-1" style="font-family:Sacramento; font-size: 2rem; font-style: normal;">Fun
+                Times
+              </p>
+              <div class="mt-2">
+
+                <!-- Facebook -->
+                <a type="button" class="btn btn-floating"><i
+                    class="fab fa-facebook fa-2x icon-cog u-text-white"></i></a>
+                <!-- Instagram -->
+                <a type="button" class="btn btn-floating"><i
+                    class="fab fa-instagram fa-2x icon-cog u-text-white"></i></a>
+                <!-- Twitter -->
+                <a type="button" class="btn btn-floating"><i class="fab fa-twitter fa-2x icon-cog u-text-white"></i></a>
+                <!-- Linkedin -->
+                <a type="button" class="btn btn-floating"><i
+                    class="fab fa-linkedin fa-2x icon-cog u-text-white"></i></a>
+
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="u-block-header u-text mb-4 pb-1">Company</h5>
+              <ul class="fa-ul" style="margin-left: 1.65em;">
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">San Antonio, TX 78204,
+                    US</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                    class="ms-2">funtimes@example.com</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 210 888 88</span>
+                </li>
+                <li class="mb-3">
+                  <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 210 888 89</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="u-block-header u-text mb-4 pb-1">Opening Hours</h5>
+
+              <table class="table text-center text-white">
+                <tbody class="font-weight-normal">
+                  <tr>
+                    <td>Mon - Thu:</td>
+                    <td>8am - 9pm</td>
+                  </tr>
+                  <tr>
+                    <td>Fri - Sat:</td>
+                    <td>8am - 1am</td>
+                  </tr>
+                  <tr>
+                    <td>Sunday:</td>
+                    <td>9am - 10pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Copyright -->
+
+            <div class="text-center p-3 u-small-text u-text-default u-text-variant u-text-6">
+              © 2021 Copyright:
+              <a class="text-white">FunTimes</a>
+            </div>
+
+
+          </div>
+
+        </div>
+      </footer>
+
+  </main>
+
+
+  <!-- <script src="./assets/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
